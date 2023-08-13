@@ -7,6 +7,38 @@
   pointer-events: none;
 }
 
+body {
+  background-color: #283618 !important;
+  color: #fefae0 !important;
+  padding: 10px 50px;
+}
+
+h1 {
+  background-color: #606c38;
+  color: #fefae0;
+  padding:20px;
+}
+
+h2 {
+  color: #fefae0;
+  padding:20px;
+}
+
+nav.navbar {
+  padding-left: 20px;
+}
+
+small.movie {
+  color: #283618 !important;
+}
+
+small.genre {
+  color: #606c38 !important;
+}
+
+small.em {
+  color: tomato !important;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
