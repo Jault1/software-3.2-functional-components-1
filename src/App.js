@@ -2,25 +2,27 @@ import './App.css';
 import Nav from "./components/Nav"
 // import Child from "./components/Child";
 import Movie from "./components/Movie";
+import movieImg1 from './assets/images/movie-1.png'; // Tell webpack this JS file uses this image
+import movieImg2 from './assets/images/movie-2.png'; // Tell webpack this JS file uses this image
+import movieImg3 from './assets/images/movie-3.png'; // Tell webpack this JS file uses this image
+
 
 function App() {
 
   return (
     <>
     <Nav/>
-    <container>
       <h1>Movie app</h1>
       <div className="row row-cols-1 row-cols-md-3 g-4">
 
-      <Movie movTitle="Airplane" year="1990" genDescription="Description of what a comedy is since it's in Genre?" genName="Comedy" genTitle1="Title ONE of genre, since it's in Genre?" genTitle2="Title TWO of genre, since it's in Genre?"/>
-      <Movie movTitle="Casablanca" year="1962" genName="Romance" />
-      <Movie movTitle="Dumb and Dumber" year="2004" genName="Comedy" />
+      <Movie movieImage={movieImg1} movTitle="Airplane" year="1990" genDescription="Description of what a comedy is since it's in Genre?" genName="Comedy" genTitle1="Title ONE of genre, since it's in Genre?" genTitle2="Title TWO of genre, since it's in Genre?"/>
+      <Movie movieImage={movieImg2} movTitle="Casablanca" year="1962" genName="Romance" />
+      <Movie movieImage={movieImg3} movTitle="Dumb and Dumber" year="2004" genName="Comedy" />
 
          {/* <Movie movTitle="Airplane" year="1990" genDescription="Description of what a comedy is since it's in Genre?" name="Comedy" />
          <Movie movTitle="Casablanca" year="1962" genDescription="Description of what a comedy is since it's in Genre?" name="Romance" />
          <Movie movTitle="Dumb and Dumber" year="2004" genDescription="Description of what a comedy is since it's in Genre?" name="Codedy" />        */}
       </div>
-      </container>
     </>
   );
 }

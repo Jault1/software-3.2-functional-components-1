@@ -12,7 +12,6 @@ function Genre({ type, genName, genDescription, genTitle1, genTitle2}) {
   }
   export default Genre;
 
-
 // function Genre(props) {
 //     return (
 //         <div>
