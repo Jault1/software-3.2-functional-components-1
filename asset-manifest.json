@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/software-3.2-functional-components-1/static/css/main.dfa689f6.css",
+    "main.js": "/software-3.2-functional-components-1/static/js/main.4542e97d.js",
+    "index.html": "/software-3.2-functional-components-1/index.html",
+    "main.dfa689f6.css.map": "/software-3.2-functional-components-1/static/css/main.dfa689f6.css.map",
+    "main.4542e97d.js.map": "/software-3.2-functional-components-1/static/js/main.4542e97d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfa689f6.css",
+    "static/js/main.4542e97d.js"
+  ]
+}
